@@ -47,3 +47,11 @@ window.onload = function() {
 **2015-2019**  *Bachelor of Fundamental computer science and information technology*
 
 Faculty of Information Technology, Samara University, Samara, Russia.
+
+**2019-present** *Master degree of Fundamental computer science and information technology*
+
+Faculty of Information Technology, Samara University, Samara, Russia.
+
+**2017** *Java Developer courses*
+
+EGAR Technology, Samara, Russia.
