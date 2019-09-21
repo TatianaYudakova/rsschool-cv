@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Calibri Light", sans-serif;
+    background-image: url("src/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 1024px;
+    margin: 0 auto 15px;
+}
+
+main > section > header {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#avatar {
+    text-align: center;
+}
+
+#summary,
+#skills,
+#code-examples,
+#experience,
+#education,
+#english {
+    grid-column: 1 / span 3;
+}
+
+.code {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(127, 127, 127, 0.1);
+    border: 1px solid grey;
+}
+
+.education > header,
+.english > header {
+    margin: 15px 0 5px;
+}
