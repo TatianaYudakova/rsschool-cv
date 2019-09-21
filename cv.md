@@ -41,3 +41,9 @@ window.onload = function() {
 
 * Website for the photographer - the client part (HTML, CSS, JS), the server part (C #). Project in [github](https://github.com/TatianaYudakova/photocards).
 * Weather forecast for today and the next few days - the client part (HTML, CSS, JS). Project in [github](https://github.com/TatianaYudakova/weather-forecast).
+
+#### Education
+
+**2015-2019**  *Bachelor of Fundamental computer science and information technology*
+
+Faculty of Information Technology, Samara University, Samara, Russia.
