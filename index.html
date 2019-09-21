@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Tatiana Yudakova</h1>
+</header>
+<main>
+    <section id="contact-info">
+        <header>Contact Info</header>
+        <p>Samara, Russia</p>
+        <ul>
+            <li>Telephone: +7-909-370-11-55</li>
+            <li>E-mail: yudakovatl@gmail.com</li>
+        </ul>
+    </section>
+    <div id="avatar">
+        <img src="avatar.png" alt="my avatar">
+    </div>
+    <section id="summary">
+        <header>Summary</header>
+        <p>I am a creative person who wants to develop in the field of frontend development. Not afraid to face
+            difficult tasks. I like to learn new technologies.</p>
+    </section>
+    <section id="skills">
+        <header>Skills</header>
+        <ul>
+            <li><i>Programming languages:</i> Java, JavaScript, C#, PL/SQL</li>
+            <li><i>Frameworks:</i> Spring, Hibernate</li>
+            <li><i>Build tool:</i> Maven</li>
+            <li><i>Version control:</i> Git</li>
+        </ul>
+    </section>
+    <section id="code-examples">
+        <header>Code examples</header>
+        <p>Code from project "Weather forecast", where I get weather data from online service <a
+                href="https://openweathermap.org/">Openweathermap</a>:</p>
+        <div class="code">
+            <code>
+                <p>window.onload = function() {</p>
+                <p>&nbsp;&nbsp;var xhr = new XMLHttpRequest();</p>
+                <p>&nbsp;&nbsp;xhr.open('GET',
+                    'https://api.openweathermap.org/data/2.5/forecast?id=499099&units=metric&lang=ru&appid=22d697eb938c6d57b2a4ec8f405bcf84',
+                    false);</p>
+                <p>&nbsp;&nbsp;xhr.send();</p>
+                <p>&nbsp;&nbsp;if (xhr.status != 200) {</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;alert( xhr.status + ': ' + xhr.statusText );</p>
+                <p>&nbsp;&nbsp;} else {</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;fillWeatherForecastArray(xhr.responseText);</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;insertWeather(currentweatherForecastArray);</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;checkedDisabledButtons();</p>
+                <p>&nbsp;&nbsp;}</p>
+                <p>};</p>
+            </code>
+        </div>
+    </section>
+    <section id="experience">
+        <header>Experience</header>
+        <ul>
+            <li>Website for the photographer - the client part (HTML, CSS, JS), the server part (C #). Project in <a
+                    href="https://github.com/TatianaYudakova/photocards">github</a>.
+            </li>
+            <li>Weather forecast for today and the next few days - the client part (HTML, CSS, JS). Project in <a
+                    href="https://github.com/TatianaYudakova/weather-forecast">github</a>.
+            </li>
+        </ul>
+    </section>
+    <section id="education">
+        <header>Education</header>
+        <section class="education">
+            <header class=""><b>2015-2019</b> <i>Bachelor of Fundamental computer science and information technology</i>
+            </header>
+            <p>Faculty of Information Technology, Samara University, Samara, Russia.</p>
+        </section>
+        <section class="education">
+            <header><b>2019-present</b> <i>Master degree of Fundamental computer science and information technology</i>
+            </header>
+            <p>Faculty of Information Technology, Samara University, Samara, Russia.</p>
+        </section>
+        <section class="education">
+            <header><b>2017</b> <i>Java Developer courses</i></header>
+            <p>EGAR Technology, Samara, Russia.</p>
+        </section>
+    </section>
+    <section id="english">
+        <header>English</header>
+        <section class="english">
+            <header><b>2017-2018</b></header>
+            <p>English courses - Samara University.</p>
+        </section>
+    </section>
+</main>
+</body>
+</html>
