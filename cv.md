@@ -1,22 +1,22 @@
 # Tatiana Yudakova
-#### Contact Info
+## Contact Info
 
 Samara, Russia
 * Telephone: +7-909-370-11-55
 * E-mail: yudakovatl@gmail.com
 
-#### Summary
+## Summary
 
 I am a creative person who wants to develop in the field of frontend development. Not afraid to face difficult tasks. I like to learn new technologies.
 
-#### Skills
+## Skills
 
 * *Programming languages:* Java, JavaScript, C#, PL/SQL
 * *Frameworks:* Spring, Hibernate
 * *Build tool:* Maven
 * *Version control:* Git
 
-#### Code examples
+## Code examples
 
 Code from project "Weather forecast", where I get weather data from online service [Openweathermap](https://openweathermap.org/):
 ```javascript
@@ -37,12 +37,12 @@ window.onload = function() {
 };
 ```
 
-#### Experience
+## Experience
 
 * Website for the photographer - the client part (HTML, CSS, JS), the server part (C #). Project in [github](https://github.com/TatianaYudakova/photocards).
 * Weather forecast for today and the next few days - the client part (HTML, CSS, JS). Project in [github](https://github.com/TatianaYudakova/weather-forecast).
 
-#### Education
+## Education
 
 **2015-2019**  *Bachelor of Fundamental computer science and information technology*
 
@@ -56,7 +56,7 @@ Faculty of Information Technology, Samara University, Samara, Russia.
 
 EGAR Technology, Samara, Russia.
 
-#### English
+## English
 
 **2017-2018**
 
