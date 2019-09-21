@@ -15,3 +15,24 @@ I am a creative person who wants to develop in the field of frontend development
 * *Frameworks:* Spring, Hibernate
 * *Build tool:* Maven
 * *Version control:* Git
+
+#### Code examples
+
+Code from project "Weather forecast", where I get weather data from online service [Openweathermap](https://openweathermap.org/):
+```javascript
+window.onload = function() {
+	var xhr = new XMLHttpRequest();
+
+	xhr.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=499099&units=metric&lang=ru&appid=22d697eb938c6d57b2a4ec8f405bcf84', false);
+
+	xhr.send();
+
+	if (xhr.status != 200) {
+	  alert( xhr.status + ': ' + xhr.statusText );
+	} else {
+	 fillWeatherForecastArray(xhr.responseText);
+	 insertWeather(currentweatherForecastArray);
+	 checkedDisabledButtons();
+	}
+};
+```
