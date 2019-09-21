@@ -8,3 +8,10 @@ Samara, Russia
 #### Summary
 
 I am a creative person who wants to develop in the field of frontend development. Not afraid to face difficult tasks. I like to learn new technologies.
+
+#### Skills
+
+* *Programming languages:* Java, JavaScript, C#, PL/SQL
+* *Frameworks:* Spring, Hibernate
+* *Build tool:* Maven
+* *Version control:* Git
