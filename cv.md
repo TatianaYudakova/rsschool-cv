@@ -55,3 +55,9 @@ Faculty of Information Technology, Samara University, Samara, Russia.
 **2017** *Java Developer courses*
 
 EGAR Technology, Samara, Russia.
+
+#### English
+
+**2017-2018**
+
+English courses - Samara University.
